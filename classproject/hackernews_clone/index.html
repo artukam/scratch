@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <div class="row navigation">
+      <ul class="list-inline">
+        <li class="nav-title">Hacker News</li>
+        <li class="formtoggle">submit</li>
+        <li>|</li>
+        <li class="favoritetoggle">favorite</li>
+        <li class="alltoggle hide-all">all</li>
+      </ul>
+  </div>
+
+  <div class="row submitform hideform">
+  <form>
+    <div class="form-group">
+        <label for="title">title</label>
+        <input type="text" id="title"></input>
+    </div>
+    <div class="form-group">
+        <label for="url">url </label>
+        <input type="url" id="url"></input>
+    </div>
+        <label for=""></label>
+        <button type="submit" class="btn btn-hacker">Submit</button>
+  </form>
+  </div>
+  <div class="row newslist">
+    <ol class="topiclist">
+      <li><span class="glyphicon glyphicon-star-empty"></span><a class="topic-text" target="blank" href="http://www.google.com">Javascript became the world's language</a><span class="class-filter">(http://www.google.com)</span></li>
+       <li><span class="glyphicon glyphicon-star-empty"></span><a class="topic-text" target="blank" href="http://www.rithmschool.com">Rithm school launches new React material</a><span class="class-filter">(http://www.rithmschool.com)</span></li>
+       <li><span class="glyphicon glyphicon-star-empty"></span><a class="topic-text" target="blank" href="http://www.rithmschool.com">Rithm school completes part-time course for this month</a><span class="class-filter">(http://www.rithmschool.com)</span></li>
+       <li><span class="glyphicon glyphicon-star-empty"></span><a class="topic-text" target="blank" href="http://www.imgur.com">Look at this stuff, isn't it neat?</a><span class="class-filter">(http://www.imgur.com)</span></li>
+       <li><span class="glyphicon glyphicon-star-empty"></span><a class="topic-text" target="blank" href="http://www.imgur.com">Cats, cats, everywhere!</a><span class="class-filter">(http://www.imgur.com)</span></li>
+    </ol>
+  </div>
+</div>
+
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+ul{
+	padding: 10px;
+}
+
+.glyphicon-remove:hover{
+	background-color:"red";
+}
